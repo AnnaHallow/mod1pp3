@@ -22,7 +22,7 @@ public class EmployeeTests {
 
         //return billable;
 
-
+        //The third number is "delta" which = how big of a margin of error is allowed for answers!
         Assert.assertEquals(425.00, employee.getBalanceDue(billable),0.0);
         //"Error!!", 475.00, customer.getBalanceDue(billable));
     }
